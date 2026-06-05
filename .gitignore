@@ -1,0 +1,5 @@
+# Ignore all TPM-managed plugin directories
+plugins/*/
+ 
+# Keep any local theme overrides you maintain yourself
+!plugins/theme-tmux/
