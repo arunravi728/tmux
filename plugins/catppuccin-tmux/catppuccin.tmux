@@ -152,7 +152,7 @@ main() {
   fi
 
   set status-left ""
-  set status-right "#[fg=$thm_green,bg=$thm_gray]$right_separator#{?client_prefix,#[bg=$thm_red],#[bg=$thm_green]}#[fg=$thm_bg] #[fg=$thm_fg,bg=$thm_gray] #S "
+  set status-right "#[fg=$thm_bg,bg=$thm_green] #S "
 
   setw window-status-format "${window_status_format}"
   setw window-status-current-format "${window_status_current_format}"
