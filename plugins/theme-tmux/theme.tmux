@@ -101,7 +101,7 @@ main() {
 
   local show_directory_in_window_status_current
   #readonly show_directory_in_window_status_current="#[fg=$thm_bg,bg=$thm_orange] #I #[fg=$thm_fg,bg=$thm_bg] #{b:pane_current_path} "
-    readonly show_directory_in_window_status_current="#[fg=$thm_bg,bg=$thm_cyan] #I #[fg=$thm_cyan,bg=$thm_bg,bold] #W "
+    readonly show_directory_in_window_status_current="#[fg=$thm_bg,bg=$thm_orange] #I #[fg=$thm_orange,bg=$thm_bg,bold] #W "
 
 
   local show_window_in_window_status
